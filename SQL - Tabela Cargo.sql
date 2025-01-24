@@ -1,0 +1,3 @@
+SELECT job_role, COUNT(*)
+FROM DADOS_FUNCIONARIOS
+GROUP BY job_role
